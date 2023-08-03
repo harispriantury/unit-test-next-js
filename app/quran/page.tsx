@@ -68,7 +68,7 @@ const Quran = () => {
                                                 </div>
                                                 <div className='text-center group-hover:text-greenDark '>
                                                     <p>
-                                                        الفاتحة
+                                                        {item.nama}
                                                     </p>
                                                     <p >
                                                         {item.jumlahAyat} ayat

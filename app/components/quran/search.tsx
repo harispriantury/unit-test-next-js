@@ -2,6 +2,7 @@ import React, { FC } from 'react'
 import Image from 'next/image'
 import bismillah2 from '@/public/bismillah2.png'
 import { IoSearchCircleSharp } from 'react-icons/io5'
+import Link from 'next/link';
 
 interface iSelectedSurah {
     name: string;
@@ -11,23 +12,23 @@ interface iSelectedSurah {
 const selectedSurah: iSelectedSurah[] = [
     {
         name: 'Al-Mulk',
-        url: 'quran'
+        url: '67'
     },
     {
-        name: 'Yaseen',
-        url: 'quran'
+        name: 'Yasin',
+        url: '36'
     },
     {
         name: 'Al-Kahf',
-        url: 'quran'
+        url: '18'
     },
     {
         name: 'Al-Waqi`ah',
-        url: 'quran'
+        url: '56'
     },
     {
         name: 'Ar-Rahman',
-        url: 'quran'
+        url: '55'
     }
 ]
 
@@ -59,9 +60,11 @@ const Search: FC<TSearch> = ({ handleChange }) => {
                 <div className=' flex gap-3 mt-3 text-white'>
                     {selectedSurah.map((item) => {
                         return (
-                            <button key={item.name} className='bg-green px-3 py-1 rounded-full'>
-                                {item.name}
-                            </button>
+                            <Link key={item.name} href={`detail/${item.url}`} >
+                                <button key={item.name} className='bg-green px-3 py-1 rounded-full'>
+                                    {item.name}
+                                </button>
+                            </Link>
                         )
                     })}
                 </div>

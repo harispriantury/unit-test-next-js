@@ -24,6 +24,7 @@ const Detail = ({ }) => {
         try {
             const response = await fetch(`https://equran.id/api/v2/surat/${id}`)
             const result = await response.json();
+            console.log(detail);
             setDetail(result.data as IDetailSurah)
         } catch (error) {
 

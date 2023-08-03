@@ -4,6 +4,7 @@ export interface IDataSurah {
   audioFull: string[];
   namaLatin: string;
   jumlahAyat: number;
+  nama: string;
 }
 
 interface IAyat {
