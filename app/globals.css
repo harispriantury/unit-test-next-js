@@ -20,3 +20,8 @@ body {
   color: rgb(var(--foreground-rgb));
   background-image: linear-gradient(to bottom right, var(--background-start-rgb), var(--background-end-rgb));
 }
+
+.inherit {
+  color: green;
+  font-family: inherit;
+}

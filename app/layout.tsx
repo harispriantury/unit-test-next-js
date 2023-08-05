@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Quran App |',
   description: 'Aplikasi Quran Bahasa Indoneisa',
-  icons: '/islam2.png'
+  icons: '/islam2.png',
 }
 
 export default function RootLayout({
@@ -20,6 +20,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Head>
+        <meta http-equiv="Content-Type" content="text/html; charset=windows-1256"></meta>
+      </Head>
       <body className='min-h-screen'>
         <div className='lg:px-40 md:px-60'>
           <Navbar />
