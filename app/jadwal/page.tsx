@@ -2,7 +2,7 @@ import React from 'react'
 
 const JadwalSholat = () => {
     return (
-        <div>Jadwal Sholat</div>
+        <div>halaman ini masih dalam proses development</div>
     )
 }
 
