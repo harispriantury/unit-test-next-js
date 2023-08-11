@@ -23,8 +23,8 @@ export default function RootLayout({
       <Head>
         <meta http-equiv="Content-Type" content="text/html; charset=windows-1256"></meta>
       </Head>
-      <body className='min-h-screen'>
-        <div className='lg:px-40 md:px-60'>
+      <body className='min-h-screen min-w-screen bg-yellow'>
+        <div className='px-2 md:px-4 lg:px-20 xl:px-32 2xl:px-60'>
           <Navbar />
           {children}
           <Footer />

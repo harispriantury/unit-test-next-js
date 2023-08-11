@@ -5,9 +5,11 @@ export interface IDataSurah {
   namaLatin: string;
   jumlahAyat: number;
   nama: string;
+  deskripsi: string;
+  tempatTurun: string;
 }
 
-interface IAyat {
+export interface IAyat {
   audio: any;
   nomorAyat: number;
   deskripsi: string;

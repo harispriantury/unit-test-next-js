@@ -11,18 +11,18 @@ const Hero = () => {
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1, transition: { delay: 0.2, duration: 1 } }}
             >
-                <h1 className='text-5xl pt-28'>"Bagaimana <span className='text-6xl font-semibold'>Al-Qur'an</span> di hati kita"</h1>
-                <p className='text-2xl'>Orang yang membaca Alquran seakan sedang mendapat kehormatan bermunajat dengan Allah SWT,<br /> sekaligus seperti seorang prajurit yang menerima perintah dari atasan</p>
+                <h1 className='max-md:text-2xl text-5xl pt-28'>"Bagaimana <span className='max-md:text-3xl text-6xl font-semibold'>Al-Qur'an</span> di hati kita"</h1>
+                <p className='text-2xl max-md:text-xl'>Orang yang membaca Alquran seakan sedang mendapat kehormatan bermunajat dengan Allah SWT,<br /> sekaligus seperti seorang prajurit yang menerima perintah dari atasan</p>
 
             </motion.div>
 
-            <div className='bg-white py-20 px-10 rounded-3xl border-t-8 border-l-8 border-green mt-10 shadow-2xl'>
+            <div className='bg-white py-20 px-10 max-lg:px-3 rounded-3xl border-t-8 border-l-8 border-green mt-10 shadow-2xl'>
                 <motion.div
                     initial={{ opacity: 0, x: 50 }}
                     whileInView={{ opacity: 1, x: 0, transition: { delay: 0.2, duration: 0.5 } }}
                     exit={{ opacity: 0, x: 50 }}
                 >
-                    <h2 className='text-4xl'>
+                    <h2 className='text-4xl max-lg:text-2xl'>
                         وَاِذَا قُرِئَ الْقُرْاٰنُ فَاسْتَمِعُوْا لَهٗ وَاَنْصِتُوْا لَعَلَّكُمْ تُرْحَمُوْنَ
                     </h2>
                 </motion.div>
@@ -31,7 +31,7 @@ const Hero = () => {
                     whileInView={{ opacity: 1, x: 0, transition: { delay: 0.2, duration: 0.5 } }}
                     exit={{ opacity: 0, x: -50 }}
                 >
-                    <p className='text-xl italic font-bold py-5'>"Dan apabila dibacakan Al-Qur'an, maka dengarkanlah dan diamlah, agar kamu mendapat rahmat."</p>
+                    <p className='text-xl max-lg:text-lg italic font-bold py-5'>"Dan apabila dibacakan Al-Qur'an, maka dengarkanlah dan diamlah, agar kamu mendapat rahmat."</p>
 
                 </motion.div>
             </div>

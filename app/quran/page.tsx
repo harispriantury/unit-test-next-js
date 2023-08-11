@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react'
 import Search from '../components/quran/search';
 import Link from 'next/link';
 import { IDataSurah } from '../interfaces/surah';
+import { motion } from 'framer-motion'
 
 
 const Quran = () => {
@@ -43,38 +44,45 @@ const Quran = () => {
             <section id='surah' className='bg-white min-h-[380px] rounded-t-3xl mt-5 flex flex-col items-center p-8'>
                 {
                     surah && surah?.length > 0 ? (
-                        <div className=' grid grid-cols-3 gap-4 w-5/6 text-white'>
+                        <div className=' grid grid-cols-3 max-xl:grid-cols-2 gap-3 w-5/6 max-md:grid-cols-1 text-white'>
                             {
                                 surah?.map((item) => {
                                     return (
                                         <Link key={item.nomor} href={`detail/${item.nomor}`} >
-                                            <div
-
-                                                className='bg-green flex justify-between p-4 cursor-pointer rounded-xl border-2 border-green hover:border-2 group hover:border-greenDark hover:shadow-lg'
+                                            <motion.div
+                                                initial={{ scale: 0, opacity: 0 }}
+                                                whileInView={{ scale: 1, opacity: 1, transition: { duration: 0.3 } }}
+                                                exit={{ scale: 0, opacity: 0 }}
                                             >
-                                                <div className='flex gap-3 items-center group-hover:text-greenDark'>
-                                                    <div className='flex w-10 h-10 rounded-sm border-2 group-hover:border-none group-hover:text-white group-hover:bg-greenDark rotate-45 justify-center items-center'>
-                                                        <p className='-rotate-45'>{item.nomor}</p>
-                                                    </div>
-                                                    <div className='text-sm '>
-                                                        <p className='text-xl'>
-                                                            {item.namaLatin}
-                                                        </p>
-                                                        <p className='font-semibold italic'>
-                                                            {item.arti}
-                                                        </p>
 
+                                                <div
+                                                    className='bg-green grid grid-cols-12 p-2 cursor-pointer rounded-xl border-2 border-green hover:border-2 group hover:border-greenDark hover:shadow-lg'
+                                                >
+                                                    <div className='col-span-9 grid grid-cols-12 gap-3 items-center group-hover:text-greenDark'>
+                                                        <div className='col-span-3 flex w-10 h-10 rounded-sm border-2 group-hover:border-none group-hover:text-white group-hover:bg-greenDark rotate-45 justify-center items-center'>
+                                                            <p className='-rotate-45'>{item.nomor}</p>
+                                                        </div>
+                                                        <div className='col-span-9 text-sm'>
+                                                            <p className='text-lg'>
+                                                                {item.namaLatin}
+                                                            </p>
+                                                            <p className='font-semibold italic whitespace-nowrap overflow-hidden text-ellipsis'>
+                                                                {item.arti}
+                                                            </p>
+
+                                                        </div>
+                                                    </div>
+                                                    <div className='col-span-3 text-center group-hover:text-greenDark whitespace-nowrap overflow-hidden'>
+                                                        <p>
+                                                            {item.nama}
+                                                        </p>
+                                                        <p >
+                                                            {item.jumlahAyat} ayat
+                                                        </p>
                                                     </div>
                                                 </div>
-                                                <div className='text-center group-hover:text-greenDark '>
-                                                    <p>
-                                                        {item.nama}
-                                                    </p>
-                                                    <p >
-                                                        {item.jumlahAyat} ayat
-                                                    </p>
-                                                </div>
-                                            </div>
+
+                                            </motion.div>
 
                                         </Link>
                                     )

@@ -1,6 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
 
-import { BsFacebook } from 'react-icons/bs'
 import Hero from './components/home/hero'
 import Fitur from './components/home/fitur'
 import About from './components/home/about'

@@ -134,7 +134,7 @@ const JadwalSholat = () => {
             <div className="flex justify-between mt-5 items-center">
                 <select
                     value={selectedCity}
-                    className='bg-white text-greenDark p-2 rounded-lg outline-none no-scrollbar'
+                    className='bg-white text-greenDark p-2 rounded-lg outline-none no-scrollbar max-md:text-sm max-md:w-1/2'
                     onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setSelectedCity(e.target.value)}>
                     {
                         cities &&
@@ -153,13 +153,13 @@ const JadwalSholat = () => {
                 </select>
                 <Clock />
             </div>
-            <div className='w-full bg-greenDark text-white p-12 text-center rounded-t-xl text-3xl'>
+            <div className='w-full bg-greenDark text-white p-12 text-center rounded-t-xl text-3xl max-md:text-xl max-md:p-5'>
                 <h1>JADWAL SHOLAT WILAYAH  {datas?.lokasi ? datas.lokasi : "Kebumen"} dan SEKITARNYA</h1>
                 <p>{months[parseInt(scheduleTime.month) - 1]} {String(new Date().getFullYear())}</p>
             </div>
             <div className='bg-white text-center'>
-                <table className='w-full xl:text-lg'>
-                    <thead className='bg-greenDark text-white rounded-t-lg'>
+                <table className='w-full xl:text-lg max-sm:text-[8px] max-md:text-xs'>
+                    <thead className='bg-greenDark text-white rounded-t-lg max-md:font-extralight'>
                         <tr>
                             {thead.map((item) => {
                                 return (
