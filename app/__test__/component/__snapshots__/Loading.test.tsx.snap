@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Loading Component 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <footer
+        class="absolute right-0 w-full bg-greenDark text-center text-white p-5 flex flex-col items-center"
+      >
+        <div
+          class="flex flex-col items-start text-base"
+        >
+          <h1
+            class="font-semibold"
+          >
+            API
+          </h1>
+          <ul
+            class="flex flex-col items-start text-sm"
+          >
+            <a
+              href="https://equran.id/apidev"
+              target="_blank"
+            >
+              EQuran.id
+            </a>
+            <a
+              href="https://api.myquran.com/"
+              target="_black"
+            >
+              MyQuran.com
+            </a>
+          </ul>
+        </div>
+        <hr
+          class="bg-white"
+        />
+        <br />
+        <h1
+          class="underline"
+        >
+          Copyright © 2023. Made by Haris Priantury from Indonesia with ❤️
+        </h1>
+      </footer>
+    </div>
+  </body>,
+  "container": <div>
+    <footer
+      class="absolute right-0 w-full bg-greenDark text-center text-white p-5 flex flex-col items-center"
+    >
+      <div
+        class="flex flex-col items-start text-base"
+      >
+        <h1
+          class="font-semibold"
+        >
+          API
+        </h1>
+        <ul
+          class="flex flex-col items-start text-sm"
+        >
+          <a
+            href="https://equran.id/apidev"
+            target="_blank"
+          >
+            EQuran.id
+          </a>
+          <a
+            href="https://api.myquran.com/"
+            target="_black"
+          >
+            MyQuran.com
+          </a>
+        </ul>
+      </div>
+      <hr
+        class="bg-white"
+      />
+      <br />
+      <h1
+        class="underline"
+      >
+        Copyright © 2023. Made by Haris Priantury from Indonesia with ❤️
+      </h1>
+    </footer>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

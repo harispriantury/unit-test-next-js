@@ -1,0 +1,214 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders detail page 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex flex-col justify-center gap-5"
+      >
+        <div
+          class="flex justify-between mt-5 items-center"
+        >
+          <select
+            class="bg-white text-greenDark p-2 rounded-lg outline-none no-scrollbar max-md:text-sm max-md:w-1/2"
+          />
+          <div />
+        </div>
+        <div
+          class="w-full bg-greenDark text-white p-12 text-center rounded-t-xl text-3xl max-md:text-xl max-md:p-5"
+        >
+          <h1>
+            JADWAL SHOLAT WILAYAH 
+            Kebumen
+             dan SEKITARNYA
+          </h1>
+          <p>
+            November
+             
+            2023
+          </p>
+        </div>
+        <div
+          class="bg-white text-center"
+        >
+          <table
+            class="w-full xl:text-lg max-sm:text-[8px] max-md:text-xs"
+          >
+            <thead
+              class="bg-greenDark text-white rounded-t-lg max-md:font-extralight"
+            >
+              <tr>
+                <th>
+                  Tanggal
+                </th>
+                <th>
+                  Imsyak
+                </th>
+                <th>
+                  Subuh
+                </th>
+                <th>
+                  Terbit
+                </th>
+                <th>
+                  Dhuha
+                </th>
+                <th>
+                  Dzuhur
+                </th>
+                <th>
+                  Ashar
+                </th>
+                <th>
+                  Maghrib
+                </th>
+                <th>
+                  Isya
+                </th>
+              </tr>
+            </thead>
+            <tbody
+              class="text-center"
+            />
+          </table>
+          <div
+            class="h-96 py-20 w-full bg-white text-center text-greenDark text-3xl"
+          >
+            Data kosong
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col justify-center gap-5"
+    >
+      <div
+        class="flex justify-between mt-5 items-center"
+      >
+        <select
+          class="bg-white text-greenDark p-2 rounded-lg outline-none no-scrollbar max-md:text-sm max-md:w-1/2"
+        />
+        <div />
+      </div>
+      <div
+        class="w-full bg-greenDark text-white p-12 text-center rounded-t-xl text-3xl max-md:text-xl max-md:p-5"
+      >
+        <h1>
+          JADWAL SHOLAT WILAYAH 
+          Kebumen
+           dan SEKITARNYA
+        </h1>
+        <p>
+          November
+           
+          2023
+        </p>
+      </div>
+      <div
+        class="bg-white text-center"
+      >
+        <table
+          class="w-full xl:text-lg max-sm:text-[8px] max-md:text-xs"
+        >
+          <thead
+            class="bg-greenDark text-white rounded-t-lg max-md:font-extralight"
+          >
+            <tr>
+              <th>
+                Tanggal
+              </th>
+              <th>
+                Imsyak
+              </th>
+              <th>
+                Subuh
+              </th>
+              <th>
+                Terbit
+              </th>
+              <th>
+                Dhuha
+              </th>
+              <th>
+                Dzuhur
+              </th>
+              <th>
+                Ashar
+              </th>
+              <th>
+                Maghrib
+              </th>
+              <th>
+                Isya
+              </th>
+            </tr>
+          </thead>
+          <tbody
+            class="text-center"
+          />
+        </table>
+        <div
+          class="h-96 py-20 w-full bg-white text-center text-greenDark text-3xl"
+        >
+          Data kosong
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

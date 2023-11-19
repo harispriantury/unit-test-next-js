@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 
-import Hero from './components/home/hero'
-import Fitur from './components/home/fitur'
-import About from './components/home/about'
+import Hero from "./components/home/hero";
+import Fitur from "./components/home/Fitur";
+import About from "./components/home/About";
 
 export default function Home() {
   return (
@@ -10,6 +10,6 @@ export default function Home() {
       <Hero />
       <Fitur />
       <About />
-    </main >
-  )
+    </main>
+  );
 }

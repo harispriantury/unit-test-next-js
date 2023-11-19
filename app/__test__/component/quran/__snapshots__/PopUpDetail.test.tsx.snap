@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders PopUpDetail Component 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class=" w-screen h-screen fixed top-0 left-0 z-[52]"
+      >
+        <div
+          class="absolute w-full h-full bg-black bg-opacity-50 p-20 max-md:p-10 z-[50]"
+        >
+          <div
+            class="w-full h-full bg-white rounded-2xl opacity-100 p-20 max-md:p-2 relative z-50 overflow-scroll"
+          >
+            <button
+              class="absolute right-3 top-3 text-3xl"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M256 48C140.559 48 48 140.559 48 256c0 115.436 92.559 208 208 208 115.435 0 208-92.564 208-208 0-115.441-92.564-208-208-208zm104.002 282.881l-29.12 29.117L256 285.117l-74.881 74.881-29.121-29.117L226.881 256l-74.883-74.881 29.121-29.116L256 226.881l74.881-74.878 29.12 29.116L285.119 256l74.883 74.881z"
+                />
+              </svg>
+            </button>
+            <h1
+              class="text-2xl"
+            />
+            <h2
+              class="text-xl pb-10"
+            />
+            <div
+              class="grid grid-cols-6 text-start"
+            >
+              <p
+                class="col-span-2"
+              >
+                Jumlah Ayat
+              </p>
+              <p
+                class="col-span-4"
+              >
+                : 
+                 Ayat
+              </p>
+              <p
+                class="col-span-2"
+              >
+                Tempat Turun
+              </p>
+              <p
+                class="col-span-4"
+              >
+                : 
+              </p>
+              <p
+                class="col-span-2"
+              >
+                Deskripsi
+              </p>
+              <p
+                class="col-span-4"
+              >
+                : 
+                undefined
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class=" w-screen h-screen fixed top-0 left-0 z-[52]"
+    >
+      <div
+        class="absolute w-full h-full bg-black bg-opacity-50 p-20 max-md:p-10 z-[50]"
+      >
+        <div
+          class="w-full h-full bg-white rounded-2xl opacity-100 p-20 max-md:p-2 relative z-50 overflow-scroll"
+        >
+          <button
+            class="absolute right-3 top-3 text-3xl"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M256 48C140.559 48 48 140.559 48 256c0 115.436 92.559 208 208 208 115.435 0 208-92.564 208-208 0-115.441-92.564-208-208-208zm104.002 282.881l-29.12 29.117L256 285.117l-74.881 74.881-29.121-29.117L226.881 256l-74.883-74.881 29.121-29.116L256 226.881l74.881-74.878 29.12 29.116L285.119 256l74.883 74.881z"
+              />
+            </svg>
+          </button>
+          <h1
+            class="text-2xl"
+          />
+          <h2
+            class="text-xl pb-10"
+          />
+          <div
+            class="grid grid-cols-6 text-start"
+          >
+            <p
+              class="col-span-2"
+            >
+              Jumlah Ayat
+            </p>
+            <p
+              class="col-span-4"
+            >
+              : 
+               Ayat
+            </p>
+            <p
+              class="col-span-2"
+            >
+              Tempat Turun
+            </p>
+            <p
+              class="col-span-4"
+            >
+              : 
+            </p>
+            <p
+              class="col-span-2"
+            >
+              Deskripsi
+            </p>
+            <p
+              class="col-span-4"
+            >
+              : 
+              undefined
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
